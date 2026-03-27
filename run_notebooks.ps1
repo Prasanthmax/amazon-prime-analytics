@@ -1,0 +1,1 @@
+.\venv\Scripts\jupyter nbconvert --execute --to notebook --inplace notebooks\01_data_cleaning.ipynb; .\venv\Scripts\jupyter nbconvert --execute --to notebook --inplace notebooks\02_eda.ipynb; .\venv\Scripts\jupyter nbconvert --execute --to notebook --inplace notebooks\03_visualizations.ipynb

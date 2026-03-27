@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Visualizations (optional - remove if you want to track them)
+# visualizations/*.png
+
+# Dashboard (React/Node)
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.env
+dashboard/.env.*
+
+# Project Reports and any extra notes
+reports/
+*.txt
+!requirements.txt
